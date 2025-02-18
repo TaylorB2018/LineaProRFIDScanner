@@ -9,10 +9,14 @@ Follow the instruction in the QuantumSDK on how to configure your info.plist and
 
 ![image](https://github.com/user-attachments/assets/ce0b4e61-758d-48c0-9c32-14c4f068db72)
 
+Make sure you change the RequestsOpenAccess field to Yes! Otherwise the keyboard will be unusable!
+
+![image](https://github.com/user-attachments/assets/b6fddc04-99f6-4b3a-a99c-fed22fb66b69)
+
 
 you will also need to import the Foundation, CoreLocation, and QuantumSDK frameworks(Make sure this is at the root of your directory) into your project as well as the KeyboardKit package dependency.
 
-![image](https://github.com/user-attachments/assets/2c0abb10-c423-409f-abd5-44e6ed55b6ad)
+![image](https://github.com/user-attachments/assets/c6d37c23-ffac-4fe3-b748-320ca1c344d5)
 
 
 # How to use
