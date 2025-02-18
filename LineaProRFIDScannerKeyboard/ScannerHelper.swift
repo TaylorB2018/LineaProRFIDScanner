@@ -24,7 +24,7 @@ class ScannerHelper: ObservableObject {
         print("Scanner initializing...")
         // Set dev key
         do {
-            try IPCIQ.register()!.setDeveloperKey("yA6caHXzthEqKUYtQRluaHChStHwnFOfhvSyMjDsFWj2SC+LcWUhp4IpFmbnvO0M/Jp5uUCqAtoIbBTPorPVsBwCFPWa5/jb8WSxVYxzaVaD0g8V0VhYI7e7yKJhag2S")
+            try IPCIQ.register()!.setDeveloperKey("")
             print("Developer key set successfully")
         } catch {
             print("Failed to set developer key: \(error)")

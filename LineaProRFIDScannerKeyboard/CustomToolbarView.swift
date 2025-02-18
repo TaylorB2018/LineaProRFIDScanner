@@ -24,6 +24,7 @@ struct CustomToolbarView: View {
     
     @State private var uhfButtonIsActive = false
     @State private var barcodeButtonIsActive = false
+    @State private var scannerNotConnected: Bool = true
     var body: some View {
         VStack{
             HStack{
@@ -32,7 +33,7 @@ struct CustomToolbarView: View {
                     scanner.initializeRFID()
                     rfidButtonIsActive.toggle()
                 }
-                .disabled(scanner.deviceNotConnected)
+                .disabled(scannerNotConnected)
                 .padding(5)
                 //.background(Color(red: 0, green: 0, blue: 0.5))
                 .foregroundStyle(rfidButtonIsActive ? .white : .black)
@@ -69,7 +70,7 @@ struct CustomToolbarView: View {
                         //  keyboardContext.textDocumentProxy.insertText(scanner.uhfTagData)
                     
                 }
-                .disabled(scanner.deviceNotConnected)                //
+                .disabled(scannerNotConnected)                //
                 .padding(5)
                 .foregroundStyle(uhfButtonIsActive ? .white : .black)
                 .animation(.easeInOut.delay(0.4), value: uhfButtonIsActive)
@@ -111,7 +112,7 @@ struct CustomToolbarView: View {
                  }
                  }
                  }
-                 .disabled(scanner.deviceNotConnected)
+                 .disabled(scannerNotConnected)
                  .padding(5)
                  .foregroundStyle(barcodeButtonIsActive ? .white : .black)
                  .animation(.easeInOut.delay(0.4), value: barcodeButtonIsActive)
@@ -160,6 +161,10 @@ struct CustomToolbarView: View {
                 }
             }
             Divider()
+            
+        }
+        .onReceive(scanner.$deviceNotConnected){ value in
+            scannerNotConnected = value
             
         }
         .onAppear{
