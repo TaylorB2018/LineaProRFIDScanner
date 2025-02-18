@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D73341B2D2E5CA800A670E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73341A2D2E5CA800A670E0 /* CoreLocation.framework */; };
+		3D73341D2D2E5CAE00A670E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73341C2D2E5CAE00A670E0 /* Foundation.framework */; };
+		3D73342E2D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D7334272D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D7334382D2E5EC600A670E0 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7334372D2E5EC600A670E0 /* KeyboardKit */; settings = {ATTRIBUTES = (Required, ); }; };
+		3D73343A2D2E5ED500A670E0 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7334392D2E5ED500A670E0 /* KeyboardKit */; };
+		3D7DAAAD2D63313B005293E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73341C2D2E5CAE00A670E0 /* Foundation.framework */; };
+		3D7DAAAE2D633144005293E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73341A2D2E5CA800A670E0 /* CoreLocation.framework */; };
+		3D7DAACD2D640B11005293E4 /* QuantumSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7DAACA2D640B07005293E4 /* QuantumSDK.xcframework */; };
+		3D7DAACE2D640B11005293E4 /* QuantumSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7DAACA2D640B07005293E4 /* QuantumSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D7DAAD02D640BAD005293E4 /* QuantumSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7DAACA2D640B07005293E4 /* QuantumSDK.xcframework */; };
+		3D7DAAD12D640BAD005293E4 /* QuantumSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7DAACA2D640B07005293E4 /* QuantumSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D7333FD2D2E5C2D00A670E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D7333E42D2E5C2B00A670E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7333EB2D2E5C2B00A670E0;
+			remoteInfo = LineaProRFIDScanner;
+		};
+		3D7334072D2E5C2D00A670E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D7333E42D2E5C2B00A670E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7333EB2D2E5C2B00A670E0;
+			remoteInfo = LineaProRFIDScanner;
+		};
+		3D73342C2D2E5D5500A670E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D7333E42D2E5C2B00A670E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7334262D2E5D5500A670E0;
+			remoteInfo = LineaProRFIDScannerKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D7334222D2E5CC600A670E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D7DAAD12D640BAD005293E4 /* QuantumSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334332D2E5D5500A670E0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D73342E2D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334432D2E63E800A670E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D7DAACE2D640B11005293E4 /* QuantumSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D7333EC2D2E5C2B00A670E0 /* LineaProRFIDScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineaProRFIDScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7333FC2D2E5C2D00A670E0 /* LineaProRFIDScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineaProRFIDScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7334062D2E5C2D00A670E0 /* LineaProRFIDScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineaProRFIDScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D73341A2D2E5CA800A670E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D73341C2D2E5CAE00A670E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D7334272D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LineaProRFIDScannerKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D73343B2D2E61CC00A670E0 /* LineaProRFIDScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LineaProRFIDScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D7DAACA2D640B07005293E4 /* QuantumSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = QuantumSDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3D73342F2D2E5D5500A670E0 /* Exceptions for "LineaProRFIDScannerKeyboard" folder in "LineaProRFIDScannerKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3D7334262D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */;
+		};
+		3D7DAA8D2D6324D3005293E4 /* Exceptions for "LineaProRFIDScannerKeyboard" folder in "LineaProRFIDScanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ScannerHelper.swift,
+			);
+			target = 3D7333EB2D2E5C2B00A670E0 /* LineaProRFIDScanner */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D7333EE2D2E5C2B00A670E0 /* LineaProRFIDScanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LineaProRFIDScanner;
+			sourceTree = "<group>";
+		};
+		3D7333FF2D2E5C2D00A670E0 /* LineaProRFIDScannerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LineaProRFIDScannerTests;
+			sourceTree = "<group>";
+		};
+		3D7334092D2E5C2D00A670E0 /* LineaProRFIDScannerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LineaProRFIDScannerUITests;
+			sourceTree = "<group>";
+		};
+		3D7334282D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3D7DAA8D2D6324D3005293E4 /* Exceptions for "LineaProRFIDScannerKeyboard" folder in "LineaProRFIDScanner" target */,
+				3D73342F2D2E5D5500A670E0 /* Exceptions for "LineaProRFIDScannerKeyboard" folder in "LineaProRFIDScannerKeyboard" target */,
+			);
+			path = LineaProRFIDScannerKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7333E92D2E5C2B00A670E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D73343A2D2E5ED500A670E0 /* KeyboardKit in Frameworks */,
+				3D7DAAD02D640BAD005293E4 /* QuantumSDK.xcframework in Frameworks */,
+				3D73341B2D2E5CA800A670E0 /* CoreLocation.framework in Frameworks */,
+				3D73341D2D2E5CAE00A670E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7333F92D2E5C2D00A670E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334032D2E5C2D00A670E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334242D2E5D5500A670E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7DAAAE2D633144005293E4 /* CoreLocation.framework in Frameworks */,
+				3D7DAACD2D640B11005293E4 /* QuantumSDK.xcframework in Frameworks */,
+				3D7DAAAD2D63313B005293E4 /* Foundation.framework in Frameworks */,
+				3D7334382D2E5EC600A670E0 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7333E32D2E5C2B00A670E0 = {
+			isa = PBXGroup;
+			children = (
+				3D73343B2D2E61CC00A670E0 /* LineaProRFIDScanner-Bridging-Header.h */,
+				3D7333EE2D2E5C2B00A670E0 /* LineaProRFIDScanner */,
+				3D7333FF2D2E5C2D00A670E0 /* LineaProRFIDScannerTests */,
+				3D7334092D2E5C2D00A670E0 /* LineaProRFIDScannerUITests */,
+				3D7334282D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */,
+				3D7334192D2E5CA700A670E0 /* Frameworks */,
+				3D7333ED2D2E5C2B00A670E0 /* Products */,
+				3D7DAACA2D640B07005293E4 /* QuantumSDK.xcframework */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7333ED2D2E5C2B00A670E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7333EC2D2E5C2B00A670E0 /* LineaProRFIDScanner.app */,
+				3D7333FC2D2E5C2D00A670E0 /* LineaProRFIDScannerTests.xctest */,
+				3D7334062D2E5C2D00A670E0 /* LineaProRFIDScannerUITests.xctest */,
+				3D7334272D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7334192D2E5CA700A670E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D73341C2D2E5CAE00A670E0 /* Foundation.framework */,
+				3D73341A2D2E5CA800A670E0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7333EB2D2E5C2B00A670E0 /* LineaProRFIDScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7334102D2E5C2D00A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScanner" */;
+			buildPhases = (
+				3D7333E82D2E5C2B00A670E0 /* Sources */,
+				3D7333E92D2E5C2B00A670E0 /* Frameworks */,
+				3D7333EA2D2E5C2B00A670E0 /* Resources */,
+				3D7334222D2E5CC600A670E0 /* Embed Frameworks */,
+				3D7334332D2E5D5500A670E0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D73342D2D2E5D5500A670E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D7333EE2D2E5C2B00A670E0 /* LineaProRFIDScanner */,
+			);
+			name = LineaProRFIDScanner;
+			packageProductDependencies = (
+				3D7334392D2E5ED500A670E0 /* KeyboardKit */,
+			);
+			productName = LineaProRFIDScanner;
+			productReference = 3D7333EC2D2E5C2B00A670E0 /* LineaProRFIDScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D7333FB2D2E5C2D00A670E0 /* LineaProRFIDScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7334132D2E5C2D00A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScannerTests" */;
+			buildPhases = (
+				3D7333F82D2E5C2D00A670E0 /* Sources */,
+				3D7333F92D2E5C2D00A670E0 /* Frameworks */,
+				3D7333FA2D2E5C2D00A670E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7333FE2D2E5C2D00A670E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D7333FF2D2E5C2D00A670E0 /* LineaProRFIDScannerTests */,
+			);
+			name = LineaProRFIDScannerTests;
+			packageProductDependencies = (
+			);
+			productName = LineaProRFIDScannerTests;
+			productReference = 3D7333FC2D2E5C2D00A670E0 /* LineaProRFIDScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D7334052D2E5C2D00A670E0 /* LineaProRFIDScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7334162D2E5C2D00A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScannerUITests" */;
+			buildPhases = (
+				3D7334022D2E5C2D00A670E0 /* Sources */,
+				3D7334032D2E5C2D00A670E0 /* Frameworks */,
+				3D7334042D2E5C2D00A670E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7334082D2E5C2D00A670E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D7334092D2E5C2D00A670E0 /* LineaProRFIDScannerUITests */,
+			);
+			name = LineaProRFIDScannerUITests;
+			packageProductDependencies = (
+			);
+			productName = LineaProRFIDScannerUITests;
+			productReference = 3D7334062D2E5C2D00A670E0 /* LineaProRFIDScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3D7334262D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7334302D2E5D5500A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScannerKeyboard" */;
+			buildPhases = (
+				3D7334232D2E5D5500A670E0 /* Sources */,
+				3D7334242D2E5D5500A670E0 /* Frameworks */,
+				3D7334252D2E5D5500A670E0 /* Resources */,
+				3D7334432D2E63E800A670E0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D7334282D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */,
+			);
+			name = LineaProRFIDScannerKeyboard;
+			packageProductDependencies = (
+				3D7334372D2E5EC600A670E0 /* KeyboardKit */,
+			);
+			productName = LineaProRFIDScannerKeyboard;
+			productReference = 3D7334272D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D7333E42D2E5C2B00A670E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3D7333EB2D2E5C2B00A670E0 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3D7333FB2D2E5C2D00A670E0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3D7333EB2D2E5C2B00A670E0;
+					};
+					3D7334052D2E5C2D00A670E0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3D7333EB2D2E5C2B00A670E0;
+					};
+					3D7334262D2E5D5500A670E0 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D7333E72D2E5C2B00A670E0 /* Build configuration list for PBXProject "LineaProRFIDScanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D7333E32D2E5C2B00A670E0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3D7334362D2E5EC600A670E0 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D7333ED2D2E5C2B00A670E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7333EB2D2E5C2B00A670E0 /* LineaProRFIDScanner */,
+				3D7333FB2D2E5C2D00A670E0 /* LineaProRFIDScannerTests */,
+				3D7334052D2E5C2D00A670E0 /* LineaProRFIDScannerUITests */,
+				3D7334262D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7333EA2D2E5C2B00A670E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7333FA2D2E5C2D00A670E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334042D2E5C2D00A670E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334252D2E5D5500A670E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7333E82D2E5C2B00A670E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7333F82D2E5C2D00A670E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334022D2E5C2D00A670E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7334232D2E5D5500A670E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7333FE2D2E5C2D00A670E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7333EB2D2E5C2B00A670E0 /* LineaProRFIDScanner */;
+			targetProxy = 3D7333FD2D2E5C2D00A670E0 /* PBXContainerItemProxy */;
+		};
+		3D7334082D2E5C2D00A670E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7333EB2D2E5C2B00A670E0 /* LineaProRFIDScanner */;
+			targetProxy = 3D7334072D2E5C2D00A670E0 /* PBXContainerItemProxy */;
+		};
+		3D73342D2D2E5D5500A670E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7334262D2E5D5500A670E0 /* LineaProRFIDScannerKeyboard */;
+			targetProxy = 3D73342C2D2E5D5500A670E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D73340E2D2E5C2D00A670E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D73340F2D2E5C2D00A670E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D7334112D2E5C2D00A670E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LineaProRFIDScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = LineaProRFIDScanner;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/LineaProRFIDScanner/LineaProRFIDScanner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D7334122D2E5C2D00A670E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LineaProRFIDScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = LineaProRFIDScanner;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/LineaProRFIDScanner/LineaProRFIDScanner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D7334142D2E5C2D00A670E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LineaProRFIDScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LineaProRFIDScanner";
+			};
+			name = Debug;
+		};
+		3D7334152D2E5C2D00A670E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LineaProRFIDScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LineaProRFIDScanner";
+			};
+			name = Release;
+		};
+		3D7334172D2E5C2D00A670E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LineaProRFIDScanner;
+			};
+			name = Debug;
+		};
+		3D7334182D2E5C2D00A670E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LineaProRFIDScanner;
+			};
+			name = Release;
+		};
+		3D7334312D2E5D5500A670E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LineaProRFIDScannerKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LineaProRFIDScannerKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScanner.LineaProRFIDScannerKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/LineaProRFIDScanner/LineaProRFIDScanner-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D7334322D2E5D5500A670E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXB8H7GBTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LineaProRFIDScannerKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LineaProRFIDScannerKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taylor.LineaProRFIDScanner.LineaProRFIDScannerKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/LineaProRFIDScanner/LineaProRFIDScanner-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7333E72D2E5C2B00A670E0 /* Build configuration list for PBXProject "LineaProRFIDScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D73340E2D2E5C2D00A670E0 /* Debug */,
+				3D73340F2D2E5C2D00A670E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7334102D2E5C2D00A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7334112D2E5C2D00A670E0 /* Debug */,
+				3D7334122D2E5C2D00A670E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7334132D2E5C2D00A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7334142D2E5C2D00A670E0 /* Debug */,
+				3D7334152D2E5C2D00A670E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7334162D2E5C2D00A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7334172D2E5C2D00A670E0 /* Debug */,
+				3D7334182D2E5C2D00A670E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7334302D2E5D5500A670E0 /* Build configuration list for PBXNativeTarget "LineaProRFIDScannerKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7334312D2E5D5500A670E0 /* Debug */,
+				3D7334322D2E5D5500A670E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D7334362D2E5EC600A670E0 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D7334372D2E5EC600A670E0 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D7334362D2E5EC600A670E0 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		3D7334392D2E5ED500A670E0 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D7334362D2E5EC600A670E0 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3D7333E42D2E5C2B00A670E0 /* Project object */;
+}
