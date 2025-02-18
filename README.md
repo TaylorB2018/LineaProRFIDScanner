@@ -7,7 +7,8 @@ Once you have your developer key, just paste it into the try IPCIQ.register()!.s
 
 Follow the instruction in the QuantumSDK on how to configure your info.plist and your project. You will need to add add three privacy keys. Your info.plist at the end should resemble this:
 
-![image](https://github.com/user-attachments/assets/ce0b4e61-758d-48c0-9c32-14c4f068db72)
+![image](https://github.com/user-attachments/assets/cc8dc5f9-47d1-43d0-afb3-d3c874303802)
+
 
 Make sure you change the RequestsOpenAccess field to Yes! Otherwise the keyboard will be unusable!
 
